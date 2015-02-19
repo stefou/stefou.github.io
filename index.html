@@ -1,10 +1,63 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <meta encoding="utf-8">
-    <title>Ma première page web</title>
+    <meta charset="utf-8" />
+    <title>Mon site personnel</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>Ma première page web hébergée par GitHub</h1>
+    <header>
+      <h1>Bienvenue chez moi !</h1>
+    </header>
+    
+    <div id="content">
+      <nav>
+        <ul>
+          <li>Accueil
+            <ul>
+              <li><a href="#moi">Moi</a></li>
+              <li><a href="#mes-cours">Mes cours</a></li>
+              <li><a href="#mes-loisirs">Mes loisirs</a></li>
+            </ul>
+          </li>
+          <li><a href="#">CV</a></li>
+        </ul>
+      </nav>
+    
+      <div id="main">
+        <section id="moi">
+          <h2>Mes données</h2>
+
+          <p>Stephane De Pinho</p>
+          <adress>
+            2 rue marc sangnier<br>
+            92220 Bagneux
+          </adress>
+          <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQvqWdsK9gmNS-feu82WD3tB8jUhO5zUnfHkPZfIyfoz8JIeBYd" width="200">
+        </section>
+
+        <section id="mes-cours">
+          <h2>Mes cours</h2>
+
+          <ul>
+            <li><a href="http://defeo.lu/in202">IN202 – Applications de l'informatique</a></li>
+            <li><a href="http://defeo.lu/aws">Applications Web et Sécurité</a></li>
+          </ul>
+        </section>
+
+        <section id="mes-loisirs">
+          <h2>Mes loisirs</h2>
+
+          <ul>
+            <li>Football</li>
+            <li>Jeux vidéos</li>
+            <li>cinema</li>
+            <li>sorties </li>
+          </ul>
+        </section>
+
+        
+      </div>
+    </div>
+    
   </body>
 </html>
