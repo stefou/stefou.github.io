@@ -1,0 +1,35 @@
+body {
+  background-color: red;
+  color: blue;
+}
+
+nav, section {
+  border: solid thin;
+  border-radius: 6px;
+  padding: 1ex;
+  margin: 2ex;
+}
+
+footer {
+  width: 95%;
+  margin: 2em auto;
+  border-top: solid thin;
+}
+
+header {
+  text-align: center;
+}
+
+#moi {
+  background-color: #836;
+  box-shadow: 0 0 20px;
+}
+
+nav {
+  font-size: smaller;  
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 2px 2ex;
+}
